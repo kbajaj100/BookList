@@ -36,7 +36,11 @@ public class MainClass {
 			
 			for (int i = 0; i < split.length; i++) {
 				System.out.println(split[i]);
+				if (split[i].equals("|")){
+					++count;
+				}
 			}	
+			System.out.println("Count is: " + count);
 		}
 		
 		
