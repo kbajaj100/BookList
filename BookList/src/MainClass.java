@@ -94,8 +94,8 @@ public class MainClass {
 				{
 					for (int k = position.get(i-1) + 1; k < split.length; ++k){
 						str = str + split[k];
-						System.out.println(str);
-						System.out.println(k);
+						//System.out.println(str);
+						//System.out.println(k);
 					}
 					myBooks[line_counter].settitle(str);
 				}
